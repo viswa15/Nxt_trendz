@@ -1,0 +1,257 @@
+* {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+
+.job-details-bg-container {
+  background-color: #000000;
+  padding: 30px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.job-list-item {
+  background: #272727;
+  width: 100%;
+  border-radius: 16px;
+  padding: 26px;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.job-type-con {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.company-logo {
+  height: 90%;
+  width: 80px;
+  margin-right: 23px;
+  border-radius: 10px;
+}
+
+.job-title {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.rating {
+  font-size: 27px;
+}
+
+.star-icon {
+  font-size: 22px;
+  margin-right: 4px;
+}
+
+.job-description-heading-con {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.visit-link {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.link-icon {
+  color: #6366f1;
+}
+
+.job-details-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.job-location-employment-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-location {
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.location-icon {
+  font-size: 17px;
+  margin-right: 6px;
+}
+
+.salary {
+  font-size: 20px;
+}
+
+.break-line {
+  border: 1px solid #cbd5e1;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.loader-container {
+  width: 70%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-jobs-found-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin-left: 50px;
+}
+
+.no-jobs-img {
+  width: 70%;
+  margin-bottom: 14px;
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.no-jobs-description {
+  font-size: 16px;
+  color: #475569;
+}
+
+.skills-con {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.skill-list-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-bottom: 35px;
+  width: 25%;
+}
+
+.skill-image {
+  width: 70px;
+  height: 68px;
+  margin-right: 10px;
+}
+
+.skill-name {
+  font-size: 18px;
+}
+
+.description {
+  color: 18px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.life-at-company-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.life-at-company-image {
+  width: 40%;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.similar-jobs-con {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.similar-jobs-heading {
+  font-size: 34px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.similar-jobs-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .job-details-bg-container {
+    padding: 14px;
+  }
+  .job-list-item {
+    padding: 10px;
+  }
+  .company-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .job-title {
+    font-size: 24px;
+  }
+  .rating {
+    font-size: 18px;
+  }
+  .star-icon {
+    font-size: 16px;
+  }
+  .job-location {
+    font-size: 14px;
+  }
+  .visit-link {
+    font-size: 14px;
+  }
+  .salary {
+    font-size: 15px;
+  }
+  .skill-list-item {
+    width: 40%;
+  }
+  .skill-image {
+    width: 40px;
+    height: 45px;
+  }
+  .life-at-company-con {
+    flex-direction: column;
+  }
+  .life-at-company-image {
+    width: 100%;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .similar-jobs-list {
+    flex-direction: column;
+  }
+  .similar-jobs-heading {
+    font-size: 25px;
+  }
+}
